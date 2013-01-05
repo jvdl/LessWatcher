@@ -1,7 +1,6 @@
 {
 	"name": "lesswatcher",
-	"version": "0.0.2",
-	"private": true,
+	"version": "0.1.0",
 	"description": "An easy to use, globally installable .less compiler and watcher.",
 	"main": "lesswatcher.js",
 	"dependencies": {
@@ -12,17 +11,23 @@
 	"bin": {
 		"lesswatcher": "./lesswatcher.js"
 	},
-	"devDependencies": {},
-	"scripts": {
-		"test": ""
+	"bugs": {
+		"url": "https://github.com/afterlight/LessWatcher/issues"
 	},
-	"repository": "https://github.com/afterlight/LessWatcher.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/afterlight/LessWatcher.git"
+	},
 	"keywords": [
 	  "less",
+	  "css",
 	  "watcher",
 	  "monitor"
 	],
-	"author": "John Van Der Loo",
+	"author": {
+		"name": "John Van Der Loo",
+		"email": "npm@afterlight.com.au"
+	},
 	"license": "Apache 2.0",
 	"readmeFilename": "README.md"
 }

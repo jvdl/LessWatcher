@@ -25,3 +25,10 @@ For example the following content in `lesswatcher.config` will set the correspon
 		directory: "styles/less",
 		output: "../css"
 	}
+
+
+## About
+Most of this project is simply a shorthand to [Guilherme Dupont](https://github.com/gdupont "Guilherme Dupont")'s work on [less-monitor](https://github.com/gdupont/less-monitor "less-monitor").
+
+It depends on `less-monitor` and `less` to perform all the hard work. I just wanted a quick-and-dirty command that I could run from the CLI without having to set loads of options. Additionally the use of a config file was a feature I thought was necessary.
+
