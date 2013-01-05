@@ -8,8 +8,8 @@ An easy to use, globally installable .less compiler and watcher.
 	
 	  -d, --directory         Set input directory - where your .less files are located
 	
-	  -o, --output            Set output directory - this is relative to your the directory
-	                          where less files are generated from.
+	  -o, --output            Set output directory - this is relative to your the 
+	                          directory where less files are generated from.
 	
 	  -b, --build-only        Performs a build and exits
 	

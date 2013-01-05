@@ -1,5 +1,5 @@
 {
-	"name": "lesswatcher",
+	"name": "afterlight-lesswatcher",
 	"version": "0.1.0",
 	"description": "An easy to use, globally installable .less compiler and watcher.",
 	"main": "lesswatcher.js",
