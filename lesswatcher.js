@@ -21,10 +21,17 @@ var options = {
 
 
 
-helper.readConfig(configFile, function(configFileOptions){
-	options = helper.extend(options, configFileOptions);
-	main();
-});
+helper.readConfig(
+	configFile,
+	function(configFileOptions){
+		options = helper.extend(options, configFileOptions);
+		main();
+	},
+	function(){
+		main();
+	}
+);
+
 
 
 function main() {
