@@ -1,5 +1,5 @@
 #LessWatcher
-LessWatcher is a globally installable shorthand for using less-monitor. 
+An easy to use, globally installable .less compiler and watcher. 
 	
 	usage: lesswatcher [options]
 	
@@ -13,18 +13,15 @@ LessWatcher is a globally installable shorthand for using less-monitor.
 	
 	  -b, --build-only        Performs a build and exits
 	
-	  --debug                 Outputs filename and line numbers in rendered CSS
-	
 	Example:
 	
-	  lesswatcher -d=styles/less -o=../css --debug
-
+	  lesswatcher -d=styles/less -o=../css
+	
 Alternative, a `lesswatcher.config` file can be placed in the directory where you are calling it from to specify a set of options.
 
 For example the following content in `lesswatcher.config` will set the corresponding options:
 
 	{
 		directory: "styles/less",
-		output: "../css",
-		debug: true
+		output: "../css"
 	}
